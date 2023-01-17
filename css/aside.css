@@ -1,0 +1,65 @@
+.social {
+    margin-right: auto;
+    margin-left: auto;
+    width: 25vw;
+    border-radius: 20px;
+    background-image: radial-gradient(#21222B, #2F2C2F);
+    border-top: 1px solid #575759;
+    border-left: 1px solid rgb(77, 77, 77);
+    border-right: 1px solid rgb(77, 77, 77);
+}
+
+.social_content {
+    height: 100%;
+    width: 100%;
+}
+
+.social_friend {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 2vh;
+}
+
+.font_size {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.arrow_down {
+    cursor: pointer;
+}
+
+.list_friend {
+    margin-left: 1vw;
+}
+
+.list_friend>.icon_friend {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3vh;
+}
+
+.icon_friend {
+    width: 64px;
+    height: 64px;
+}
+
+.icon_friend>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100vw;
+}
+
+.icon_friend>p {
+    margin-left: 0.5vw;
+}
+
+.recent_played {
+    margin-top: 2vh;
+}
+
+.recent_played>p {
+    margin-left: 4vw;
+}

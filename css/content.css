@@ -1,0 +1,170 @@
+@font-face {
+    font-family: 'OptimusPrinceps';
+    src: url('../font/OptimusPrinceps.ttf') format(truetype);
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'OptimusPrinceps';
+    font-size: clamp(1rem, 0.5294rem + 47.0588vw, 3rem);
+    margin-top: 10vh;
+    margin-left: 2vw;
+}
+
+.text>p {
+    color: black;
+}
+
+.game_atual {
+    display: flex;
+    width: 55vw;
+    height: 40vh;
+    background-image: radial-gradient(#21222B, #2F2C2F);
+    margin-left: 5vw;
+    border-top: 1px solid #575759;
+    border-left: 1px solid rgb(77, 77, 77);
+    border-right: 1px solid rgb(77, 77, 77);
+    border-radius: 30px;
+}
+
+.img {
+    width: 32vw;
+    height: 100%;
+    margin-left: auto;
+}
+
+.img>img {
+    width: 100%;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    width: 13vw;
+    height: 7vh;
+    background-color: #2D2F3A;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.price>p {
+    margin: auto;
+    font-size: 18px;
+    margin-right: auto;
+    color: black;
+}
+
+.price>input {
+    width: 50%;
+    height: 85%;
+    border-radius: 20px;
+    margin-right: 5px;
+    background-color: #0D82EC;
+    border: 1px solid transparent;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* segunda section  */
+
+.games_played_content {
+    margin-top: 5vh;
+    width: 55vw;
+    margin-left: 4vw;
+}
+
+.content_played {
+    height: 100%;
+    width: 100%;
+}
+
+.games_played {
+    display: flex;
+    width: 100%;
+    margin-top: 3vh;
+}
+
+.titulo {
+    font-size: clamp(1rem, 0rem + 100vw, 1.5rem);
+}
+
+.game {
+    height: 28vh;
+    margin-left: 1.5vw;
+}
+
+.game>p {
+    margin-left: 10px;
+    margin-top: 1vh;
+}
+
+.img_game {
+    width: 17vw;
+    height: 20vh;
+}
+
+.img_game>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.name_game {
+    font-size: clamp(1rem, 0rem + 100vw, 2rem);
+}
+
+
+/* terceira section  */
+
+.info {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5vh;
+}
+
+.library {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-image: radial-gradient(#21222B, #2F2C2F);
+    border-radius: 20px;
+}
+
+.library_content {
+    display: flex;
+    height: auto;
+    margin-left: 1vw;
+}
+
+.segunda_linha {
+    margin-left: 3vw;
+}
+
+.library>p {
+    margin-left: 1vw;
+}
+
+.another_game {
+    display: flex;
+    align-items: center;
+}
+
+.img_another_game {
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.img_another_game>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+}
+
+.another_game>p {
+    margin-left: 1vw;
+}
